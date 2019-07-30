@@ -30,7 +30,7 @@ see [INSTALL.sh](INSTALL.sh) for details about installation
 
 ## to compile the python3 into an executable binary
 
-You will need [CONDA](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) and then install (nuitka)[https://nuitka.net/]
+You will need [CONDA](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) and then install [nuitka](https://nuitka.net/)
 and **python3 libraries** for CONDA's python3
 Then run the compilation under CONDA
 ```
@@ -43,5 +43,5 @@ rm -Rf bin/demort.dist/
 rm -Rf bin/demort.build/
 
 
-# RUN DEMORT
+# EXECUTE THE PROGRAM
 
