@@ -1,5 +1,4 @@
 `demort` evaluates demultiplexed fastq files by computing various metrics.
-`demort` is a python3 program.
 
 # DEPENDENCIES
 
@@ -8,16 +7,10 @@ You need to install [python 3.7](https://www.python.org/download/releases/3.0/) 
 python3 --version
 ```
 **python3 depencies :**
-* argparse
-* os
-* gzip
-* csv
-* multiprocessing
 * [joblib](https://joblib.readthedocs.io/en/latest/installing.html)
 * [biopython](https://github.com/biopython/biopython)
 * [matplotlib](https://matplotlib.org/3.1.1/faq/installing_faq.html)
 
-see [INSTALL.sh](INSTALL.sh) for details about installation of python3 dependencies
 
 # USAGE
 
@@ -33,13 +26,6 @@ demort.py -d folder/folder1,folder/folder2,folder/folder3 \
 (process a list of folder into a file)
 ```
 demort.py -d example/folder_to_process.txt \
- -t 8 \
- -p results.pdf \
- -o results.csv
-```
-(process folders into a folder)
-```
-demort.py -d <(ls folder) \
  -t 8 \
  -p results.pdf \
  -o results.csv
@@ -80,9 +66,3 @@ folder/
 # SYSTEM REQUIREMENTS
 
 Linux (64-bit and 32-bit with slightly limited functionality) and macOS (OS X) are supported.
-
-For the main pipeline:
-
-* Python3 (3.7 or higher)
-* zlib development files
-
