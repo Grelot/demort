@@ -7,7 +7,7 @@ setuptools.setup(
 
      name='demort',  
 
-     version='0.2.2',
+     version='0.2.3',
 
      scripts=['src/demort.py'] ,
 
@@ -17,12 +17,13 @@ setuptools.setup(
 
      description="DEmultiplexing MOnitoring Report Tool",
 
+     long_description_content_type="text/markdown",
+
      long_description=long_description,
-     long_description_content_type='text/markdown', 
-
-
+     
 
      url="https://github.com/Grelot/demort",
+
      packages=setuptools.find_packages(),
 
     install_requires=['argparse', 'numpy', 'matplotlib', 'biopython', 'joblib'],
