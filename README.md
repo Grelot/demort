@@ -1,4 +1,6 @@
-[![PyPI version](https://badge.fury.io/py/demort.svg)](https://badge.fury.io/py/demort)
+[![PyPI version](https://badge.fury.io/py/demort.svg)](https://badge.fury.io/py/demort) [![mit license](https://black.readthedocs.io/en/stable/_static/license.svg
+)](https://github.com/Grelot/demort/blob/master/LICENSE) 
+
 
 # DEMORT
 DEmultiplexing MOnitoring Report Tool. DEMORT evaluates demultiplexing fastq files by computing various metrics.
