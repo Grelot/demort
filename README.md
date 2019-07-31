@@ -82,7 +82,7 @@ demort.py -d <(ls folder) \
 | `--inputFolder` | `-d` | NA |  a string of folderpath separated by coma `,` OR a file containing a list (e.g. [folder_to_process.txt](example/folder_to_process.txt)) |
 | `--threads` | `-t` | 1 | Number of available cores |
 | `--output_pdf` | `-p` | NA | path of the file where to write a `pdf` boxplot picture |
-| `--output_csv` | `-o` | TRUE | path of the file where to write a `csv` table |
+| `--output_csv` | `-o` | NA | path of the file where to write a `csv` table |
 
 
 # INPUT
