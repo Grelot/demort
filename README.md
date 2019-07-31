@@ -1,4 +1,4 @@
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/demort) [[![PyPI version](https://badge.fury.io/py/demort.svg)](https://badge.fury.io/py/demort) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/demort) [![MIT license](https://black.readthedocs.io/en/stable/_static/license.svg
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/demort) [![PyPI version](https://badge.fury.io/py/demort.svg)](https://badge.fury.io/py/demort) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/demort) [![MIT license](https://black.readthedocs.io/en/stable/_static/license.svg
 )](https://github.com/Grelot/demort/blob/master/LICENSE)
 
 
