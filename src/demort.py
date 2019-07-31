@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #===============================================================================
 #INFORMATION
 #===============================================================================
@@ -131,7 +132,7 @@ parser = argparse.ArgumentParser(description='DEMORT - DEmultiplexing MOnitoring
 parser.add_argument("-p","--output_pdf", type=str)
 parser.add_argument("-o","--output_csv", type=str)
 parser.add_argument("-d","--inputFolder",type=str)
-parser.add_argument("-t","--threads",type=int)
+parser.add_argument("-t","--threads",default=1,type=int)
 
 
 #==============================================================================
